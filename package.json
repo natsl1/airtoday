@@ -1,0 +1,33 @@
+{
+  "name": "databaseexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-error-handler": "^1.1.0",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "install": "^0.13.0",
+    "jquery": "^3.5.1",
+    "mongodb": "^3.6.0",
+    "mongoose": "^5.10.0",
+    "mosca": "^2.8.3",
+    "multer": "^1.4.2",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "serve-static": "^1.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
