@@ -16,7 +16,7 @@ function connectDB() {
     let dbObj = {
         "positions":dbArray
     }
-    const databaseUrl = 'mongodb+srv://dbadmin:applemint69@realmcluster.lygek.mongodb.net/demo?retryWrites=true&w=majority'
+    const databaseUrl = 'MONGO_URL'
 
     mongoose.Promise = global.Promise
     mongoose.connect(databaseUrl, {
